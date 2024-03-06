@@ -1,0 +1,4 @@
+from sympy import plot_implicit,symbols,eq
+x,y= symbols('x,y')
+b1=plot_implicit(eq(x**2+y**2,4),(x,-4,4),(y,-4,4)
+title='circle:$x^2+y^2=4$)
